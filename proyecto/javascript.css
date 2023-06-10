@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;      
+}
+
+img{
+ margin:auto;
+ cursor:pointer;
+ transition:2s
+}
+
+ img:hover{
+
+transform:scale(1.1);
+transition: 2s;
+
+}
+
+
+
+.formato{
+position: sticky;
+top:0px;
+border:3px solid black;
+width:100%;
+display:inline-block;
+}
+
+ 
+
+img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+nav {
+  background-color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color:white ;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: BLUE;
+}
+
+main {
+  margin: 30px;
+}
+
+h2 {
+  color:black;
+}
+
+.p {
+  line-height: 1.5;
+
+}
+
+
+
+.tabla {
+  display: flex;
+  justify-content: space-between;
+ overflow:auto;
+}
+
+.izquierda {
+  flex-basis:25%;
+  border: 5px solid black;
+  padding: 5px;
+  height:auto;
+  background-color:#E6B20E  ;
+ 
+}
+
+.derecha {
+ margin-bottom: 15px;
+  flex-basis:70%;
+  text-align: justify;
+  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family:  Arial, Helvetica, sans-serif;;
+    color: black;
+    background-color: #f2f2f2;
+}
+
+.hero {
+	background: #000;
+	min-height: 10vh;
+	display: flex;
+	align-items: center;
+}
+
+.texto {
+	width: 150%;
+	color: transparent;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: bold;
+
+	background-image: url('https://clipground.com/images/logo-javascript-clipart-1.jpg');
+	background-size: cover;
+	background-position-y: 100px;
+	
+	background-clip: text;
+	-webkit-background-clip: text;
+
+	-webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+
+}
+
+img{
+ margin:auto;
+ cursor:pointer;
+ transition:4s
+}
+
+ img:hover{
+
+transform:scale(1.1);
+transition: 2s;
+
+}
+
+
+
+.formato{
+position: sticky;
+top:0px;
+border:3px solid black;
+width:100%;
+display:inline-block;
+}
+
+ 
+
+img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+nav {
+  background-color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color:white ;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: BLUE;
+}
+
+main {
+  margin: 30px;
+}
+
+h2 {
+  color:black;
+}
+
+.p {
+  line-height: 1.5;
+
+}
+
+
+
+.tabla {
+  display: flex;
+  justify-content: space-between;
+ overflow:auto;
+}
+
+.izquierda {
+  flex-basis:25%;
+  border: 5px solid black;
+  padding: 5px;
+  height:auto;
+  background-color:#DF5649   ;
+ 
+}
+
+.derecha {
+ margin-bottom: 15px;
+  flex-basis:70%;
+  text-align: justify;
+ 
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family:  Arial, Helvetica, sans-serif;;
+    color: black;
+    background-color: #f2f2f2;
+}
+
+.hero {
+	background: #000;
+	min-height: 10vh;
+	display: flex;
+	align-items: center;
+}
+
+.texto {
+	width: 150%;
+	color: transparent;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 300px;
+	font-weight: bold;
+
+	background-image: url('https://th.bing.com/th/id/R.4053e1a350b925dae91402beb5a1e9bd?rik=YbhB5kyQNjROzQ&riu=http%3a%2f%2fcomofuncionaque.com%2fwp-content%2fuploads%2fcfq%2f2015%2f10%2fjava.jpg&ehk=iGtc5hxMVMOG6EqrZQPLM9L%2bxIkhQtXop8lO41xKqkg%3d&risl=&pid=ImgRaw&r=0');
+	background-size: cover;
+	background-position-y: 500px;
+	
+	background-clip: text;
+	-webkit-background-clip: text;
+
+	-webkit-text-fill-color: transparent;
+}
